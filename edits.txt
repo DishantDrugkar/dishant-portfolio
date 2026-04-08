@@ -1,0 +1,5 @@
+app/layout.tsx -> Document name
+
+components/ui/Footer.tsx -> mail
+             /Hero.tsx -> Tagline
+             /Skills.tsx -> skills

@@ -7,20 +7,17 @@ import { TypewriterEffect } from "./ui/TypewriterEffect";
 const Hero = () => {
   const words = [
     {
-      text: "I",
+      text: "Hii",
     },
     {
-      text: "Build",
+      text: "I'm",
     },
     {
-      text: "Awesome",
-    },
-    {
-      text: "web",
+      text: "Dishant",
       className: "text-purple dark:text-purple",
     },
     {
-      text: "Applications",
+      text: "Drugkar",
       className: "text-purple dark:text-purple",
     },
   ];
@@ -51,14 +48,14 @@ const Hero = () => {
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
         
           <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Jagannath ps 
+            Namaste | こんにちわ | Hello 
           </h2>
           <TypewriterEffect
             className="text-center md:text-5xl lg:text-6xl my-5"
             words={words}
           />
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi, I&apos;m jagannath p s, a Web Developer and Open Source Enthusiast.
+            A Aspiring Software Engineer and Open Source Enthusiast.
           </p>
 
           <a href="#projects" className="cursor-pointer">
