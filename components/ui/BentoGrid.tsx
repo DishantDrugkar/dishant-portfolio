@@ -1,9 +1,10 @@
 "use client";
 import { useState } from "react";
+import dynamic from "next/dynamic";
 import { IoCopyOutline } from "react-icons/io5";
 
 // Also install this npm i --save-dev @types/react-lottie
-import Lottie from "react-lottie";
+// import Lottie from "react-lottie";
 
 import { cn } from "@/lib/utils";
 
@@ -14,6 +15,9 @@ import MagicButton from "./MagicButton";
 import { SparklesCore } from "./Sparkles";
 import LitupButton from "./LitupButton";
 
+const Lottie = dynamic(() => import("react-lottie"), {
+  ssr: false,
+});
 
 export const BentoGrid = ({
   className,
