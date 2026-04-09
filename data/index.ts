@@ -1,6 +1,6 @@
 export const navItems = [
     { name: "About", link: "#about" },
-    { name: "Resume", link: "https://drive.google.com/file/d/154jAik4Q_HciluYtfJZbBDVVgfrQuIoR/view?usp=drive_link" },
+    { name: "Resume", link: "https://drive.google.com/file/d/1xpQh8cdL1bkeC_YNspXtP3kFWcAQmQYD/view?usp=drive_link" },
     { name: "Projects", link: "#projects" },
     //{ name: "Testimonials", link: "#testimonials" },
     
@@ -56,7 +56,7 @@ export const navItems = [
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
       titleClassName: "justify-center md:justify-start lg:justify-center",
-      img: "/b5.svg",
+      img: "/java.jpg",
       spareImg: "/grid.svg",
     },
     {
@@ -74,28 +74,28 @@ export const navItems = [
   export const projects = [
         {
       id: 1,
-      title: "Whitesoft",
-      des: "Whitesoft is an ERP-CRM app build for Haritha Agritech Customized for their requirements",
-      img: "/haritha.png",
-      iconLists: ["/science.png",  "/tail.svg", "/supabase.png"],
-      link: "https://github.com/jagannath-p-s",
+      title: "Worthmate.ai",
+      des: "Developed a project for Worthmate.ai focused on building AI-driven solutions for real-world use cases.",
+      img: "/worthmate.png",
+      iconLists: ["/science.png",  "/java-icon.svg ","/postgresql-icon.svg", "/springio-icon.svg"],
+      link: "https://github.com/DishantDrugkar",
     },
     {
       id: 2,
-      title: "Gym CRM",
-      des: "We made a customized management app for Her Chamber Fitness , Permanagalam , with attendance tracking and reports , membership management and automated notifications , Expense and income management ,  ",
-      img: "chamber.png",
-      iconLists: ["/science.png",  "/tail.svg", "/supabase.png","/mui.svg"],
-      link: "https://github.com/jagannath-p-s",
+      title: "AceInt",
+      des: "Developed a project for AceInt AI, a smart placement platform connecting candidates with job opportunities. ",
+      img: "aceint.png",
+      iconLists: ["/java-icon.svg", "/postgresql-icon.svg","/springio-icon.svg"],
+      link: "https://github.com/DishantDrugkar",
       
     },
     {
       id: 3,
-      title: "Regal idustries",
-      des: "Build A static site for a business to enhance his online presence , The site is on top of search results",
-      img: "/regal.png",
-      iconLists: ["/html.svg","/css.svg", "/js.svg"],
-      link: "https://github.com/jagannath-p-s",
+      title: "NewsMania Headlines",
+      des: "Developed Newsmania Headlines, a dynamic news web app aggregating real-time headlines from multiple sources.Implemented features like filters, bookmarks, and user profiles using modern web technologies.",
+      img: "/news-page.png",
+      iconLists: ["/html.svg","/css.svg", "/js.svg", "/java-icon.svg"],
+      link: "https://github.com/DishantDrugkar",
     },
   
     {
@@ -104,7 +104,7 @@ export const navItems = [
       des: "It is a digital marketing and event planning web application , used by digital marketing agencies to scedule task to creators and editors , manage billing and event scheduling attendance tracking of staff etc ",
       img: "/digi.png",
       iconLists: ["/science.png",  "/tail.svg", "/supabase.png","/mui.svg"],
-      link: "https://github.com/jagannath-p-s",
+      link: "https://github.com/DishantDrugkar",
     },
   ];
   
@@ -177,28 +177,15 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Linux Clipboard App",
-      desc: "Made a linux App that can be used to copy multiple codes at once and paste according to the sequence",
+      title: "Software Engineer",
+      desc: "Working as a Software Engineer at Sustain Aim, passionate about building scalable and efficient solutions. Focused on solving real-world problems using Java, Spring Boot, and modern technologies.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "React Library",
-      desc: "Developed a React library called react-infinite-scroller which is used to create horizontal logo animations , its still in improvement stage ",
-      thumbnail: "/exp2.svg",
-    },
-    {
-      id: 3,
-      title: "Freelance Project",
-      desc: "Developed a AR based web application for a client to present his machines AR gltf files to get funding for his big project , have signed a NDA",
-      className: "md:col-span-2",
-      thumbnail: "/exp3.svg",
-    },
-    {
-      id: 4,
-      title: "Team Lead",
-      desc: "Led the team of developers at whitebranding for multiple projects for a period of 6 months",
+      title: "Java Developer Intern",
+      desc: "Java Developer Intern at Bootcoding Pvt Ltd, gaining hands on experience in building backend applications. Working with Java, Spring Boot, and databases to develop scalable and efficient solutions.",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
     },
@@ -209,16 +196,11 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
-      href: "https://github.com/jagannath-p-s",
+      href: "https://github.com/DishantDrugkar",
     },
     {
       id: 2,
-      img: "/twit.svg",
-      href: "https://x.com/jagannathps2000",
-    },
-    {
-      id: 3,
       img: "/link.svg",
-      href: "https://www.linkedin.com/in/jagannath-ps",
+      href: "https://www.linkedin.com/in/dishant-drugkar/",
     },
   ];
